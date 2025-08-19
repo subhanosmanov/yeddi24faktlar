@@ -1,0 +1,40 @@
+.recommended-container {
+    background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+    margin-top: 30px;
+}
+
+.recommended-title {
+    padding: 20px 0;
+}
+
+.recommended-list {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+}
+
+.recommended-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.recommended-list p {
+    margin: 0;
+    flex: 1;
+}
+
+.recommended-box {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.recomended-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,453 @@
+{
+  "technology": [
+    {
+      "title": "Süni İntellekt",
+      "description": "İnsan beynini təqlid edən alqoritmlər artıq filmlərdə deyil, real həyatda bizimlədir. Siri, ChatGPT, sürücüsüz maşınlar — bunların hamısı süni intellektin gücünü göstərir. Gələcəkdə süni intellekt insanla əməkdaşlıq edəcək və həyatımızın ayrılmaz hissəsinə çevriləcək.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/2/27/Kismet-IMG_6007-gradient.jpg",
+      "category": "technology",
+      "id": 11
+    },
+    {
+      "title": "Robototexnika",
+      "description": "İşləri insanlar üçün daha asan və təhlükəsiz edən robotlar artıq fabriklərdən çıxaraq gündəlik həyatımıza daxil olur. Yaxın gələcəkdə ev işlərini görən, qocalara kömək edən və hətta əməliyyat edən robotları görəcəyik.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Computer_Circuit_Board_MOD_45153624.jpg",
+      "category": "technology",
+      "id": 12
+    },
+    {
+      "title": "Kosmos Texnologiyaları",
+      "description": "Bir vaxtlar xəyal kimi görünən Marsa səyahət artıq reallığa çevrilir. SpaceX, NASA və digər şirkətlər insanı kosmosda yeni həyatla tanış etməyə hazırlaşır. Yaxında başqa planetlərdə yaşamaq bəlkə də mümkündür!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/6/61/Aurora-SpaceShuttle-EO.jpg",
+      "category": "technology",
+      "id": 13
+    },
+    {
+      "title": "Biotexnologiya",
+      "description": "DNT-ni redaktə etməklə xəstəlikləri sağaltmaq, məhsuldarlığı artırmaq və hətta insan ömrünü uzatmaq artıq xəyal deyil. Biotexnologiya bəşəriyyətin sağlam gələcəyi üçün ən güclü vasitələrdən biridir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Faculty_of_Food_Engineering_and_Biotechnology_4.jpg",
+      "category": "technology",
+      "id": 14
+    },
+    {
+      "title": "Virtual və Artırılmış Reallıq",
+      "description": "VR eynəkləri ilə oyun oynamaq yalnız başlanğıcdır. Tezliklə dərsləri virtual sinif otaqlarında keçəcək, muzeylərə evdən çıxmadan səyahət edəcək, hətta iş görüşlərini VR dünyasında edəcəyik.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Suteki_Hololens_applikation_.jpg",
+      "category": "technology",
+      "id": 15
+    },
+    {
+      "title": "Kvanten Hesablama",
+      "description": "Kvanten kompüterlər ən mürəkkəb problemləri saniyələrdə həll etməyə qadirdir. Bu texnologiya kriptoqrafiya, elmi tədqiqatlar və maliyyə sahəsində inqilab yaradacaq.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/97/Triangles_%28spherical_geometry%29.jpg",
+      "category": "technology",
+      "id": 6
+    },
+    {
+      "title": "Nanotexnologiya",
+      "description": "Nanotexnologiya atom və molekullar səviyyəsində materiallar yaradır. Gələcəkdə daha güclü, yüngül və dayanıqlı cihazlar, tibbi vasitələr və enerji həlləri mümkün olacaq.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Fullerene_Nanogears_-_GPN-2000-001535.jpg",
+      "category": "technology",
+      "id": 17
+    },
+    {
+      "title": "3D Çap",
+      "description": "3D çap texnologiyası dizaynları birbaşa fiziki obyektə çevirir. Evdən tutmuş tibbi implantlara qədər hər sahədə tətbiq tapır və istehsalda böyük çeviklik yaradır.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/42/Chodowiecki_Basedow_Tafel_21_c_Z.jpg",
+      "category": "technology",
+      "id": 18
+    },
+    {
+      "title": "Ağıllı Şəhərlər",
+      "description": "Ağıllı şəhərlər IoT və sensor texnologiyaları ilə insanların həyatını asanlaşdırır, enerji sərfiyyatını azaldır və şəhər idarəsini daha səmərəli edir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Clean_mobility_instead_of_dirty_traffic.jpg",
+      "category": "technology",
+      "id": 19
+    },
+    {
+      "title": "Dron Texnologiyaları",
+      "description": "Dronlar yük daşımadan film çəkməyə, axtarış-xilasetmə əməliyyatlarından kənd təsərrüfatına qədər geniş sahədə istifadə olunur. Gələcəkdə bu texnologiya daha da inkişaf edəcək.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/41/DJI_Phantom_2_Vision%2B_V3_hovering_over_Weissfluhjoch_%28cropped%29.jpg",
+      "category": "technology",
+      "id": 20
+    }
+  ],
+  "football": [
+    {
+      "title": "Dünyanın Ən Bahalı Futbolçusu",
+      "description": "Neymar 2017-ci ildə Paris Saint-Germain-ə transfer olunarkən 222 milyon avro ilə tarixdə ən bahalı transferi reallaşdırdı.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_07_%28cropped%29.jpg",
+      "category": "football",
+      "id": 21
+    },
+    {
+      "title": "Ən Çox Qol Vuran Futbolçu",
+      "description": "Cristiano Ronaldo peşəkar karyerasında 800-dən çox qol vuraraq futbol tarixinin ən məhsuldar oyunçularından biri oldu.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cristiano_Ronaldo_%28L%29%2C_Luka_Modric_%28R%29_-_Croatia_vs._Portugal%2C_10th_June_2013.jpg",
+      "category": "football",
+      "id": 22
+    },
+    {
+      "title": "Futbolda Ən Uzun Matç",
+      "description": "2019-cu ildə İngiltərədə keçirilən bir oyun 3 saatdan uzun sürərək rekord qırdı.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/57/England_team.jpg",
+      "category": "football",
+      "id": 23
+    },
+    {
+      "title": "Dünyanın Ən Böyük Stadionu",
+      "description": "Şimali Koreyadakı Rungrado 1 May Stadionu, təxminən 114 000 nəfərlik tutumu ilə dünyanın ən böyük futbol stadionu hesab edilir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/May-day_Stadium_at_night.jpg",
+      "category": "football",
+      "id": 24
+    },
+    {
+      "title": "Futbolun Kökləri",
+      "description": "Müasir futbolun kökləri İngiltərəyə aiddir, lakin top ilə oynanan oyunlar eramızdan əvvəl II əsrdə Çində də mövcud idi.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/2009-3-14_ManUtd_vs_LFC_Red_Card_Vidic.JPG",
+      "category": "football",
+      "id": 25
+    },
+    {
+      "title": "Ən Çox Dünya Kuboku Qazanmış Komanda",
+      "description": "Braziliya millisi 5 dəfə Dünya Kubokunu qazanaraq rekord sahibidir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/59/ConfedCup2013Champions4.jpg",
+      "category": "football",
+      "id": 26
+    },
+    {
+      "title": "Ən Çox Penalti Qol Vuran Oyunçu",
+      "description": "Matt Le Tissier peşəkar karyerasında penaltilərin böyük əksəriyyətini dəqiq yerinə yetirib.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Matthew_Le_Tissier.jpg",
+      "category": "football",
+      "id": 27
+    },
+    {
+      "title": "Ən Gənc Futbolçu",
+      "description": "Haruna Lamizana 14 yaşında peşəkar debüt edərək rekord qırdı.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+      "category": "football",
+      "id": 28
+    },
+    {
+      "title": "Ən Çox Kart Alan Futbolçu",
+      "description": "Sergio Ramos karyerası ərzində çoxlu sarı və qırmızı kart alaraq tanınır.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/6/61/Sergio_Ramos_Euro_2012_vs_France_02.jpg",
+      "category": "football",
+      "id": 29
+    },
+    {
+      "title": "Ən Sürətli Qol",
+      "description": "Hakan Şükür 2002 Dünya Kuboku matçında ilk qolu 11 saniyədə vurdu.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+      "category": "football",
+      "id": 30
+    },
+    {
+      "title": "Ən Çox Kapitanlıq Etmiş Futbolçu",
+      "description": "Paolo Maldini karyerası boyunca çox sayda oyunda komandasına kapitanlıq etdi.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Paolo_Maldini_AC_Milan_Technical_director_2018.jpg",
+      "category": "football",
+      "id": 31
+    },
+    {
+      "title": "Futbolun Olimpiya Tarixi",
+      "description": "Futbol ilk dəfə 1900-cü ildə Olimpiya oyunlarında yer aldı.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/da/Shunsuke1_20080622.jpg",
+      "category": "football",
+      "id": 32
+    },
+    {
+      "title": "Ən Çox Əlavə Vaxtda Qol Vuran Komanda",
+      "description": "Almaniya millisi əlavə vaxtlarda ən çox qol vuran komandalar sırasındadır.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Miroslav_Klose_Portrait.JPG",
+      "category": "football",
+      "id": 33
+    },
+    {
+      "title": "Ən Çox Dünya Kuboku Qapıçısı",
+      "description": "Gianluigi Buffon 5 Dünya Kuboku turnirində iştirak edərək rekord qapıçılardan biri oldu.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Gianluigi_Buffon_-_2019.jpg",
+      "category": "football",
+      "id": 34
+    }
+  ],
+  "aphorism": [
+    {
+      "title": "Albert Einstein",
+      "description": "Xəyallarınızın ölçüsü üçün heç bir limit yoxdur. Həyatınızın mənası, öyrəndiklərinizlə və kəşflərinizlə ölçülür.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/14/Albert_Einstein_1947.jpg",
+      "category": "aphorism",
+      "id": 35
+    },
+    {
+      "title": "Steve Jobs",
+      "description": "Yenilikçi olun və dünyanı dəyişdirmək üçün qorxmadan irəliləyin. Böyük işlər görmək üçün ürəyinizin arxasınca gedin.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg",
+      "category": "aphorism",
+      "id": 36
+    },
+    {
+      "title": "Nelson Mandela",
+      "description": "Ən böyük zəfərlər, əslində ən böyük çətinlikləri aşdıqda gəlir. Ümidinizi heç vaxt itirməyin.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/da/Nelson_Mandela%2C_2000_%285%29_%28cropped%29.jpg",
+      "category": "aphorism",
+      "id": 37
+    },
+    {
+      "title": "Mahatma Gandhi",
+      "description": "Öz dəyişikliyiniz olmaq, dünyanı dəyişdirməyin ilk addımıdır. Sülh və anlayış hər zaman qalib gəlir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+      "category": "aphorism",
+      "id": 38
+    },
+    {
+      "title": "Oscar Wilde",
+      "description": "Həyatınızı sevgi və gülüşlə doldurun. İnsanları və hadisələri olduğu kimi qəbul etmək, ən böyük hikmətdir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Oscar_Wilde_portrait_by_Napoleon_Sarony_-_albumen.jpg",
+      "category": "aphorism",
+      "id": 39
+    },
+    {
+      "title": "Mark Twain",
+      "description": "Həyat sizi gözlədiyinizdən daha maraqlı sürprizlərlə qarşılayacaq. Qorxmadan səyahət edin və öz yolunuzu tapın.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mark_Twain_by_AF_Bradley.jpg",
+      "category": "aphorism",
+      "id": 40
+    },
+    {
+      "title": "Confucius",
+      "description": "Öyrənmək və paylaşmaq insanı həqiqətən böyüdür. Hər gün yeni bir şey öyrənin və biliklərinizi paylaşın.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Konfuzius-1770.jpg",
+      "category": "aphorism",
+      "id": 41
+    },
+    {
+      "title": "Walt Disney",
+      "description": "Xəyallarınızı reallaşdırmaq üçün çalışın, çünki xəyallar həmişə həyatınıza ilham verir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Walt_Disney_1946_%28cropped2%29.JPG",
+      "category": "aphorism",
+      "id": 42
+    },
+    {
+      "title": "Marie Curie",
+      "description": "Elm və kəşfiyyat dünyanı dəyişdirir. Heç bir şey imkansız deyil, əgər inamınız varsa.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Marie_Curie_c._1920s.jpg",
+      "category": "aphorism",
+      "id": 43
+    },
+    {
+      "title": "Leonardo da Vinci",
+      "description": "Yaradıcılıq və təxəyyül hər işdə vacibdir. Daim yeni yollar kəşf edin və öyrənməkdən qorxmayın.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "category": "aphorism",
+      "id": 44
+    },
+    {
+      "title": "Aristotle",
+      "description": "Həyatınızın keyfiyyəti, etdiyiniz seçimlərlə ölçülür. Hər gün kiçik yaxşılıqlar edin.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Aristotle_Altemps_Inv8575.jpg",
+      "category": "aphorism",
+      "id": 45
+    },
+    {
+      "title": "Mother Teresa",
+      "description": "Kiçik hərəkətlər böyük sevgi gətirir. İnsanlara yardım etmək, həyatı daha mənalı edir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Mother_Teresa_1.jpg",
+      "category": "aphorism",
+      "id": 46
+    },
+    {
+      "title": "Abraham Lincoln",
+      "description": "Mübarizə və əzm ən böyük nailiyyətlərin açarıdır. Hər çətinlik sizi gücləndirir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg",
+      "category": "aphorism",
+      "id": 47
+    },
+    {
+      "title": "Martin Luther King Jr.",
+      "description": "Ədalət və sülh uğrunda mübarizə aparın. Xəyallarınız böyük olsun və heç vaxt imtina etməyin.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Martin_Luther_King%2C_Jr..jpg",
+      "category": "aphorism",
+      "id": 48
+    },
+    {
+      "title": "Eleanor Roosevelt",
+      "description": "Hər gün bir az daha yaxşı olmaq üçün çalışın. Özünüzə inanın və başqalarına ilham verin.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/2/22/Eleanor_Roosevelt_portrait_1933.jpg",
+      "category": "aphorism",
+      "id": 49
+    },
+    {
+      "title": "Pablo Picasso",
+      "description": "Yaradıcılıq sərhəd tanımır. Rənglər və formalar vasitəsilə dünyanı öz baxışınızla kəşf edin.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/98/Pablo_picasso_1.jpg",
+      "category": "aphorism",
+      "id": 50
+    },
+    {
+      "title": "J.K. Rowling",
+      "description": "Xəyallarınızın ardınca getməkdən qorxmayın. Uğur səbir və əzm tələb edir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/J._K._Rowling_2010.jpg",
+      "category": "aphorism",
+      "id": 51
+    },
+    {
+      "title": "Elon Musk",
+      "description": "Dünyanı dəyişdirmək üçün böyük düşünün. Yeni texnologiyalar və ideyalar gələcəyin açarıdır.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f4/USAFA_Hosts_Elon_Musk_%28Image_1_of_17%29_%28cropped%29.jpg",
+      "category": "aphorism",
+      "id": 52
+    },
+    {
+      "title": "Oprah Winfrey",
+      "description": "Həyatınızın hekayəsini siz yazırsınız. Pozitiv düşüncə və sevgi hər şeyin başlanğıcıdır.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Oprah_Winfrey_2016.jpg",
+      "category": "aphorism",
+      "id": 53
+    }
+  ],
+  "landscape": [
+    {
+      "title": "Everest Dağı",
+      "description": "Mount Everest dünyanın ən yüksək dağıdır və hündürlüyü 8,848 metrdir. Hər il minlərlə dağçı onu fəth etməyə çalışır.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg",
+      "category": "landscape",
+      "id": 54
+    },
+    {
+      "title": "Böyük Korall Rifi",
+      "description": "Avstraliyada yerləşən Böyük Korall Rifi dünyanın ən böyük korall sistemi olub, minlərlə dəniz canlısına ev sahibliyi edir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4f/ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg",
+      "category": "landscape",
+      "id": 55
+    },
+    {
+      "title": "Sahara Səhrası",
+      "description": "Sahara Səhrası dünyanın ən böyük isti səhrasıdır və sahəsi təxminən 9.2 milyon kvadrat kilometrdir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Algeria_Sahara_Desert_Photo_From_Drone_5.jpg",
+      "category": "landscape",
+      "id": 56
+    },
+    {
+      "title": "Amazon Meşələri",
+      "description": "Amazon Meşəsi dünyanın ən böyük tropik meşəsidir və planetimizin oksigeninin böyük hissəsini təmin edir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/56/Amazon17_%285641020319%29.jpg",
+      "category": "landscape",
+      "id": 57
+    },
+    {
+      "title": "Niagara Şəlaləsi",
+      "description": "Niagara Şəlaləsi Şimali Amerikada yerləşir və saniyədə təxminən 168,000 kub metr su axınına malikdir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/3Falls_Niagara.jpg",
+      "category": "landscape",
+      "id": 58
+    },
+    {
+      "title": "Plitvice Gölləri",
+      "description": "Xorvatiyada yerləşən Plitvice Gölləri təbiətin möcüzəsi sayılır və onların suyu zamanla fərqli rənglərdə görünür.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/3/39/View_in_Plitvice_Lakes_National_Park.jpg",
+      "category": "landscape",
+      "id": 59
+    },
+    {
+      "title": "Yosemite Milli Parkı",
+      "description": "Kaliforniyada yerləşən Yosemite Parkı nəhəng qranit qaya divarları və möhtəşəm şəlalələri ilə məşhurdur.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tunnel_View%2C_Yosemite_Valley%2C_Yosemite_NP_-_Diliff.jpg",
+      "category": "landscape",
+      "id": 60
+    },
+    {
+      "title": "Böyük Vadi",
+      "description": "Grand Canyon ABŞ-da yerləşir və 446 km uzunluğunda, 1.6 km dərinliyindədir. Yer kürəsinin geoloji tarixini görmək üçün ideal məkandır.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/3/31/Canyon_River_Tree_%28165872763%29.jpeg",
+      "category": "landscape",
+      "id": 61
+    },
+    {
+      "title": "Lavanda Tarlaları",
+      "description": "Fransada yerləşən lavanda tarlaları iy və rəng ilə turistləri cəlb edir. Yay aylarında tarlalar mor və bənövşəyi rəngdə olur.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lavender_field_in_the_Dr%C3%B4me_region_of_France.jpg",
+      "category": "landscape",
+      "id": 62
+    },
+    {
+      "title": "Buzlaqlar",
+      "description": "Antarktida və Qrenlandiyada yerləşən buzlaqlar dünya su ehtiyatlarının böyük hissəsini təşkil edir.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Geikie_Plateau_Glacier.JPG",
+      "category": "landscape",
+      "id": 63
+    }
+  ],
+  "animals": [
+    {
+      "title": "Aslan",
+      "description": "Aslanlar yalnız qışqıra bilmir, onlar ailə sürüsündə liderlik edirlər və gecə ov etməyə üstünlük verirlər. Maraqlı fakt: Aslanların qürurlu yelləri 8 km-ə qədər eşidilə bilər!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg",
+      "category": "animals",
+      "id": 64
+    },
+    {
+      "title": "Fil",
+      "description": "Fillər böyük yaddaşa sahibdirlər və hələ 50 il əvvəl baş verən hadisələri xatırlaya bilirlər. Maraqlı fakt: Fillərin ürək döyüntüsü qrupdakı digər fillər tərəfindən hiss edilə bilir!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg",
+      "category": "animals",
+      "id": 65
+    },
+    {
+      "title": "Delfin",
+      "description": "Delfinlər ağıllıdır və insanlar ilə ünsiyyət qura bilirlər. Maraqlı fakt: Delfinlər öz adlarını çağıran siqnalları başa düşür və cavab verə bilirlər!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/10/Tursiops_truncatus_01.jpg",
+      "category": "animals",
+      "id": 66
+    },
+    {
+      "title": "Kəpənək",
+      "description": "Kəpənəklər gözəl qanadlarına malikdir və çiçək tozlaşdırmaqda əvəzsizdirlər. Maraqlı fakt: Bəzi kəpənəklər qışlama zamanı öz bədən temperaturunu 5 °C-dən 35 °C-yə qədər tənzimləyə bilir!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Fesoj_-_Papilio_machaon_%28by%29.jpg",
+      "category": "animals",
+      "id": 67
+    },
+    {
+      "title": "Orca",
+      "description": "Orcalar qlobal okeanlarda yaşayır və sosial qruplarda koordinasiya ilə ov edirlər. Maraqlı fakt: Orcalar müxtəlif bölgələrdə fərqli 'dialektlərdə' danışırlar və bu bacarıqları ilə fərqli qrupları tanıyırlar!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/3/37/Killerwhales_jumping.jpg",
+      "category": "animals",
+      "id": 68
+    },
+    {
+      "title": "Panda",
+      "description": "Pandalar əsasən bambukla qidalanır və çox sakit təbiətə malikdirlər. Maraqlı fakt: Pandalar gündə 12 saatdan çox bambuk yeyə bilirlər!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG",
+      "category": "animals",
+      "id": 69
+    },
+    {
+      "title": "Qartal",
+      "description": "Qartallar inanılmaz görmə qabiliyyətinə malikdirlər və yüksəkdən ov edə bilirlər. Maraqlı fakt: Qartalın görmə qabiliyyəti insandan 8 dəfə daha güclüdür!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/6/60/Eagles_together.jpg",
+      "category": "animals",
+      "id": 70
+    },
+    {
+      "title": "Qurbağa",
+      "description": "Qurbağalar nəmdə və suya yaxın yerlərdə yaşayır. Maraqlı fakt: Bəzi qurbağa növləri dərilərindən nəfəs ala bilir!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/01/Anoures.jpg",
+      "category": "animals",
+      "id": 71
+    },
+    {
+      "title": "Kapibara",
+      "description": "Kapibaralar sosial heyvanlardır və böyük qruplarda yaşayırlar. Maraqlı fakt: Kapibaralar suda üzməyi çox yaxşı bacarır və 5 dəqiqəyə qədər su altında qala bilirlər!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/3/32/Capybara_%28Hydrochoerus_hydrochaeris%29_alpha_male.JPG",
+      "category": "animals",
+      "id": 72
+    },
+    {
+      "title": "Lama",
+      "description": "Lamalar Cənubi Amerikada yaşayan evcikləşdirilmiş heyvanlardır. Maraqlı fakt: Lamalar yoldaşlarını qorumaq üçün hündürdən tüpürə bilirlər!",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Llamas%2C_Vernagt-Stausee%2C_Italy.jpg",
+      "category": "animals",
+      "id": 73
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.info-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-text-right a {
+    color: #000;
+    cursor: pointer;
+}

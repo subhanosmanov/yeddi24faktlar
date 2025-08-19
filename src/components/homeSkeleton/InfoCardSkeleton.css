@@ -1,0 +1,43 @@
+.skeleton {
+  background: linear-gradient(90deg, #e9e9ea 0%, #f0f0f0 50%, #e9e9ea 100%);
+  background-size: 200% 100%;
+  border-radius: 6px;
+  animation: shimmer 1.2s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* şəkil skeleti */
+.image-skeleton {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+/* text skeleti */
+.skeleton-text {
+  height: 14px;
+  border-radius: 4px;
+  margin: 6px 0;
+}
+
+.title-skeleton {
+  height: 20px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.skeleton-text.short {
+  width: 80%;
+}
+
+/* düymə skeleti */
+.button-skeleton {
+  flex: 1;
+  height: 36px;
+  border-radius: 8px;
+}

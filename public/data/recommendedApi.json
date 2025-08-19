@@ -1,0 +1,38 @@
+{
+    "technology": [
+        {
+            "id": 1,
+            "title": "Kosmosun səssizliyi",
+            "description": "Kosmosda səs dalğaları yayıla bilmir. Astronavtlar yalnız radio ilə danışa bilirlər.",
+            "photo": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&auto=format&fit=crop&q=80",
+            "fallback": "https://placehold.co/400x250?text=No+Image"
+        },
+        {
+            "id": 2,
+            "title": "Mariana Çökəyi",
+            "description": "Yer üzündə ən dərin nöqtə 11 km dərinlikdə Sakit okeanda yerləşir.",
+            "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+            "fallback": "https://placehold.co/400x250?text=No+Image"
+        },
+        {
+            "id": 3,
+            "title": "Arıların hesabı",
+            "description": "Arılar 4-ə qədər rəqəmi ayırd edə bilir və sadə hesablama aparırlar.",
+            "photo": "https://images.unsplash.com/photo-1508182311256-e3f7d7d33d1d?w=800&auto=format&fit=crop&q=80",
+            "fallback": "https://upload.wikimedia.org/wikipedia/commons/9/99/Apis_mellifera_flying.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Bananın radiokativliyi",
+            "description": "Bananlarda təbii şəkildə kiçik radiasiya var. Bu tam normaldır.",
+            "photo": "https://images.unsplash.com/photo-1574226516831-e1dff420e12a?w=800&auto=format&fit=crop&q=80",
+            "fallback": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Dinozavrların lələkləri",
+            "description": "Bəzi dinozavrların lələklərə bənzər örtüyü var idi.",
+            "photo": "https://images.unsplash.com/photo-1598387846006-88b9dcf39123?w=800&auto=format&fit=crop&q=80",
+            "fallback": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Louisae.jpg"
+        }
+    ]}
