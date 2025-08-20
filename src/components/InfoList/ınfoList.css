@@ -39,7 +39,7 @@
     grid-template-columns: 1fr;
   }
   .modal-content {
-    width: 300px;
+    width: 80%;
     position: 'relative';
   }
 }

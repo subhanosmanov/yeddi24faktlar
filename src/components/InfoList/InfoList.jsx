@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "./ınfoList.css";
 import InfoCard from '../InfoCard/InfoCard';
-import InfoCardSkeleton from '../homeSkeleton/InfoCardSkeleton';
+import InfoCardSkeleton from '../skeleton/InfoCardSkeleton/InfoCardSkeleton';
 
 function InfoList({ data, loading, categoryApi, category }) {
     const [modal, setModal] = useState({ isOpen: false, info: null });
@@ -10,8 +10,6 @@ function InfoList({ data, loading, categoryApi, category }) {
     const CardChange = (info) => {
         setModal(prev => ({ ...prev, isOpen: true, info }));
     };
-
-    console.log(loading);
 
     return (
         <div className='info-list'>

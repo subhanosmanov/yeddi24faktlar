@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import UseApi from '../../components/hooks/useApi';
 import "./cardDetails.css";
 import ErrorPage from '../errorPage/errorPage';
+import CardDetailsSkeleton from '../../components/skeleton/cardDetailsSkeleton/cardDetailsSkeleton';
 
 function CardDetails() {
 
@@ -28,7 +29,7 @@ function CardDetails() {
 
     return (
         <div className='card-details-container'>
-            {data
+            {!loading ? data
                 ?.filter(info => info.id == id)
                 .map((info, i) => (
                     <div key={i} className="card-details">
@@ -39,7 +40,7 @@ function CardDetails() {
                         </div>
                     </div>
                 ))
-            }
+            : <CardDetailsSkeleton />}
         </div>
     )
 }

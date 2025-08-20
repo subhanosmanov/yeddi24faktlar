@@ -12,7 +12,7 @@
 
 body {
     font-family: var(--font-family);
-    background-color: #f8f9fa;
+    background: linear-gradient(to right, #f9fafb, #e5e7eb);
     color: #000;
 }
 
