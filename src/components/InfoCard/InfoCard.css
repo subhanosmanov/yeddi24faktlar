@@ -6,9 +6,7 @@
      transition: transform 0.2s ease;
      display: flex;
      flex-direction: column;
-     /* Foto yuxarı, content alt */
-     height: 420px;
-     /* Sabit hündürlük, istəyə görə dəyişdir */
+     height: auto;
  }
 
  .info-card:hover {

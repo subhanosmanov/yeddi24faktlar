@@ -4,7 +4,7 @@ import Wrapper from '../wrapper/wrapper';
 import UseApi from '../hooks/useApi';
 
 function Recommended() {
-    const { response, loading } = UseApi("http://localhost:3000/data/recommendedApi.json");
+    const { response, loading } = UseApi("https://yeddi24faktlar.vercel.app/data/recommendedApi.json");
     const data = response?.data["technology"];
 
     return (

@@ -8,14 +8,14 @@ import Recommended from './components/recommended/recommended.jsx';
 function App() {
 
   return (
-      <div className="App">
-        <Header />
-        <Wrapper>
-          <RouterConfig />
-        </Wrapper>
-        <Recommended />
-        <Footer />
-      </div>
+    <div className="App">
+      <Header />
+      <Wrapper>
+        <RouterConfig />
+      </Wrapper>
+      <Recommended />
+      <Footer />
+    </div>
   );
 }
 

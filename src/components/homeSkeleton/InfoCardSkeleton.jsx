@@ -2,22 +2,23 @@ import React from 'react';
 import "./InfoCardSkeleton.css";
 
 function InfoCardSkeleton() {
-    console.log("geldiiiiiiiii")
     return (
-        <div className="info-card skeleton-card">
-            <div className="skeleton skeleton-rect image-skeleton"></div>
+        <div className="info-card skeleton">
+            {/* Şəkil */}
+            <div className="skeleton-image"></div>
 
+            {/* Card content */}
             <div className="card-content">
+                {/* Başlıq */}
+                <div className="skeleton-title"></div>
 
-                <div className="skeleton skeleton-text title-skeleton"></div>
+                {/* Təsvir */}
+                <div className="skeleton-description"></div>
 
-                <div className="skeleton skeleton-text"></div>
-                <div className="skeleton skeleton-text"></div>
-                <div className="skeleton skeleton-text short"></div>
-
+                {/* Düymələr */}
                 <div className="button-container">
-                    <div className="skeleton skeleton-rect button-skeleton"></div>
-                    <div className="skeleton skeleton-rect button-skeleton"></div>
+                    <div className="skeleton-button"></div>
+                    <div className="skeleton-button"></div>
                 </div>
             </div>
         </div>

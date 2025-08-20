@@ -25,7 +25,7 @@ function CardDetails() {
     if (res !== true && res !== undefined) {
         return <ErrorPage />
     }
-    
+
     return (
         <div className='card-details-container'>
             {data
@@ -33,8 +33,10 @@ function CardDetails() {
                 .map((info, i) => (
                     <div key={i} className="card-details">
                         {info.photo && <img className="card-photo" onError={(e) => { e.currentTarget.src = 'https://placehold.co/400x250?text=No+Image'; }} src={info.photo} alt={info.title} />}
-                        <h2 className="card-details-title">{info.title}</h2>
-                        <p className="card-details-description">{info.description}</p>
+                        <div className="card-details-text-container">
+                            <h2 className="card-details-title">{info.title}</h2>
+                            <p className="card-details-description">{info.description}</p>
+                        </div>
                     </div>
                 ))
             }

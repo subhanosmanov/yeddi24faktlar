@@ -11,6 +11,7 @@
 .footer-text {
     line-height: 1.5;
     text-align: center;
+    padding: 10px 0;
 }
 
 .footer-list-item {
@@ -21,4 +22,17 @@
 .footer-list-item a {
     cursor: pointer;
     color: #fff;
+}
+
+/* Mobil */
+@media (max-width: 600px) {
+
+    .footer-text,
+    .footer-list a {
+        font-size: 14px;
+    }
+
+    .footer-list {
+        gap: 20px;
+    }
 }

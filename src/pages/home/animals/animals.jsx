@@ -7,9 +7,6 @@ function Animals() {
     const { response, loading } = UseApi("https://yeddi24faktlar.vercel.app/data/api.json");
     const data = response?.data["animals"];
 
-    console.log("animal");
-
-
     return (
         <div className='info-container'>
             <İnfoText categoryText={"HEYVANLAR"} categoryApi={"animals"} />

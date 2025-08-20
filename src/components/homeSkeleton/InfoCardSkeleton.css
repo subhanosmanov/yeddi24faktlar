@@ -1,43 +1,61 @@
-.skeleton {
-  background: linear-gradient(90deg, #e9e9ea 0%, #f0f0f0 50%, #e9e9ea 100%);
-  background-size: 200% 100%;
-  border-radius: 6px;
-  animation: shimmer 1.2s linear infinite;
+.info-card.skeleton {
+    background: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: pulse 1.5s infinite ease-in-out;
 }
 
-@keyframes shimmer {
-  0% { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
+/* Şəkil */
+.skeleton-image {
+    width: 100%;
+    height: 180px;
+    background: #e0e0e0;
+    border-radius: 8px;
 }
 
-/* şəkil skeleti */
-.image-skeleton {
-  width: 100%;
-  height: 180px;
-  border-radius: 8px;
-  margin-bottom: 12px;
+/* Başlıq */
+.skeleton-title {
+    width: 60%;
+    height: 20px;
+    background: #e0e0e0;
+    border-radius: 4px;
 }
 
-/* text skeleti */
-.skeleton-text {
-  height: 14px;
-  border-radius: 4px;
-  margin: 6px 0;
+/* Təsvir */
+.skeleton-description {
+    width: 100%;
+    height: 50px;
+    background: #e0e0e0;
+    border-radius: 4px;
 }
 
-.title-skeleton {
-  height: 20px;
-  width: 70%;
-  margin-bottom: 10px;
+/* Düymələr */
+.skeleton-button {
+    flex: 1;
+    height: 35px;
+    background: #e0e0e0;
+    border-radius: 8px;
 }
 
-.skeleton-text.short {
-  width: 80%;
+/* Düymə konteyneri */
+.button-container {
+    display: flex;
+    gap: 8px;
 }
 
-/* düymə skeleti */
-.button-skeleton {
-  flex: 1;
-  height: 36px;
-  border-radius: 8px;
+/* Responsive */
+@media (max-width: 600px) {
+    .skeleton-title {
+        height: 18px;
+    }
+    .skeleton-description {
+        height: 45px;
+    }
+    .skeleton-button {
+        height: 32px;
+    }
 }

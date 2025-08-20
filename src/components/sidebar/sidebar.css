@@ -65,7 +65,7 @@
     width: 100%;
     height: 100vh;
     background: #1f1f1f;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .sidebar-list {
@@ -89,7 +89,7 @@
 }
 
 .sidebar-text-list {
-    padding: 0 60px;
+    padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
