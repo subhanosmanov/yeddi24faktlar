@@ -8,7 +8,7 @@ import ErrorPage from '../errorPage/errorPage';
 
 function Category() {
   const { category } = useParams();
-  const { response, loading } = UseApi("http://localhost:3000/data/api.json");
+  const { response, loading } = UseApi("https://yeddi24faktlar.vercel.app/data/api.json");
   const data = response?.data[category];
 
   const location = useLocation();

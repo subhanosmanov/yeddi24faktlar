@@ -4,8 +4,9 @@ import InfoList from '../../../components/InfoList/InfoList';
 import İnfoText from '../../../components/ınfoText/ınfoText.jsx';
 
 function Animals() {
-    const { response, loading } = UseApi("http://localhost:3000/data/api.json");
+    const { response, loading } = UseApi("https://yeddi24faktlar.vercel.app/data/api.json");
     const data = response?.data["animals"];
+
 
     return (
         <div className='info-container'>

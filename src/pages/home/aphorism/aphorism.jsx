@@ -5,10 +5,9 @@ import İnfoText from '../../../components/ınfoText/ınfoText.jsx';
 
 
 function Aphorism() {
-    const { response, loading } = UseApi("http://localhost:3000/data/api.json");
+    const { response, loading } = UseApi("https://yeddi24faktlar.vercel.app/data/api.json");
     const data = response?.data["aphorism"];
 
-    // console.log(data?.slice(0,6));
     return (
         <div className='info-container'>
             <İnfoText categoryText={"AFORİZMLƏR"} categoryApi={"aphorism"}/>
