@@ -2,14 +2,13 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import UseApi from "../hooks/useApi";
 import "./inputOverlay.css";
-import InputSkeleton from "../skeleton/inputSkeleton/inputSkeleton";
 
 function InputOverlay({ inputActive, setInputActive }) {
     const [inputValue, setInputValue] = useState("");
     const [listData, setListData] = useState([]);
     const navigate = useNavigate();
 
-    const { response, loading } = UseApi("https://yeddi24faktlar.vercel.app/data/api.json");
+    const { response } = UseApi("https://yeddi24faktlar.vercel.app/data/api.json");
     const data = response?.data;
 
     // Input dəyərini dəyişmək
@@ -69,7 +68,7 @@ function InputOverlay({ inputActive, setInputActive }) {
                 </div>
 
                 <ul className="search-list">
-                    {!loading ? listData.map((list, index) => (
+                    {listData?.map((list, index) => (
                         <li
                             className="search-list-group flex-row"
                             key={index}
@@ -80,7 +79,7 @@ function InputOverlay({ inputActive, setInputActive }) {
                                 {highlightText(list.title, inputValue)}
                             </span>
                         </li>
-                    )) : <InputSkeleton />}
+                    ))}
                 </ul>
             </div>
 
