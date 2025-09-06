@@ -31,7 +31,6 @@
      justify-content: center;
      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
      transition: background 0.2s ease;
-     /* z-index: 1000; */
  }
 
  .card-image {
@@ -47,7 +46,6 @@
      flex-direction: column;
      gap: 10px;
      flex: 1;
-     /* Qalan boşluğu doldur */
  }
 
  .card-title {
@@ -70,7 +68,6 @@
      display: flex;
      justify-content: space-between;
      margin-top: auto;
-     /* Həmişə altda qalmasını təmin edir */
      gap: 8px;
  }
 

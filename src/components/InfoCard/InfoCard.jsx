@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback } from 'react';
 import "./InfoCard.css";
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
@@ -8,21 +8,21 @@ function InfoCard({ post, CardHandler, modal, onClose }) {
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
-    const CartClick = () => {
-        if (modal == undefined) {
-            CardHandler(post)
+    const CartClick = useCallback(() => {
+        if (modal === undefined) {
+            CardHandler(post);
         }
-    }
+    }, [modal, CardHandler, post]);
 
-    const buttonHandler = (e) => {
-        e.stopPropagation()
-        navigate(`/${post["category"]}/${post.id}`);
-    }
+    const buttonHandler = useCallback((e) => {
+        e.stopPropagation();
+        navigate(`/${post.category}/${post.id}`);
+    }, [navigate, post]);
 
-    const saveHandler = (e) => {
+    const saveHandler = useCallback((e) => {
         e.stopPropagation();
         dispatch(addItem(post));
-    }
+    }, [dispatch, post]);
 
     const savedItems = useSelector((state) => state.saved.items);
     // Bu element array-də varmı?

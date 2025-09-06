@@ -15,8 +15,8 @@ function Hero() {
                 <h1 className="hero-title">Hər gün yeni bir fakt <span className="highlight">kəşf et</span></h1>
                 <p className="hero-subtitle">Gündəlik seçilmiş, qısa və təsirli faktlarla dünyanı bir az daha maraqlı öyrən.</p>
                 <div className="hero-buttons">
-                    <span className="cta primary">Faktları Kəşf Et</span>
-                    <span className="cta secondary">Bizi izlə</span>
+                    <a href='https://www.instagram.com/yeddi24faktlar/' className="cta primary">Faktları Kəşf Et</a>
+                    <a href='https://www.instagram.com/yeddi24faktlar/' className="cta secondary">Bizi izlə</a>
                 </div>
                 <div className="fact-preview">
                     {facts.map((fact, idx) => (

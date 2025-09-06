@@ -1,16 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import "./ınfoList.css";
 import InfoCard from '../InfoCard/InfoCard';
 import InfoCardSkeleton from '../skeleton/InfoCardSkeleton/InfoCardSkeleton';
 
 function InfoList({ data, loading, categoryApi, category }) {
     const [modal, setModal] = useState({ isOpen: false, info: null });
-    const closeModal = () => setModal({ isOpen: false, info: null });
-
-    const CardChange = (info) => {
-        setModal(prev => ({ ...prev, isOpen: true, info }));
-    };
-
+    const closeModal = useCallback(() => {
+        setModal({ isOpen: false, info: null });
+    }, []);
+    const CardChange = useCallback((info) => {
+        setModal({ isOpen: true, info });
+    }, []);
+    
     return (
         <div className='info-list'>
             {loading == true ?

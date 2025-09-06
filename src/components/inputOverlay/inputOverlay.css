@@ -1,0 +1,88 @@
+.input-container {
+    width: calc(100% - 60px);
+    padding: 20px;
+    position: fixed;
+    top: 90px;
+    left: 50%;
+    border-radius: 30px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #2b2b2b, #3a3a3a); /* açıq qara tonlar */
+    color: white;
+    transition: transform 0.3s ease;
+    z-index: 10000;
+}
+
+.input-show {
+    opacity: 1;
+    pointer-events: all;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    border-color: #e14e4e;
+    box-shadow: 0 4px 12px rgba(225, 78, 78, 0.3);
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.search-input:focus {
+    border-color: #e14e4e;
+    box-shadow: 0 6px 20px rgba(225, 78, 78, 0.4);
+    transform: scale(1.02);
+    /* focusda bir az böyüsün */
+}
+
+.search-list {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.search-list-group {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Hover effekti */
+.search-list-group:hover {
+    background-color: #e14e4e;
+    ;
+    /* istədiyin rəng */
+    color: white;
+    /* mətn rəngi */
+}
+
+@media (min-width: 1023px) {
+    .input-container {
+        width: 50%;
+    }
+}
