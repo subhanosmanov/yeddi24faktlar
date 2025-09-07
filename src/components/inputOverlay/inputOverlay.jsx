@@ -32,8 +32,14 @@ function InputOverlay({ inputActive, setInputActive }) {
 
     // Link kliklənəndə yönləndirmək
     const linkHandler = (list) => {
-        setInputActive(false); // inputu bağla
+        setInputActive(false);
         navigate(`${list.category}/${list.id}`);
+    };
+
+    // Input Submit olduqda
+    const submitHandler = (inputText) => {
+        setInputActive(false);
+        navigate(`search/${inputText}`);
     };
 
     // Uyğun mətni highlight etmək
@@ -58,13 +64,21 @@ function InputOverlay({ inputActive, setInputActive }) {
         <>
             <div className={`${inputActive ? "input-container" : ""}`}>
                 <div className="input">
-                    <input
-                        type="text"
-                        placeholder="Axtar..."
-                        className="search-input"
-                        value={inputValue}
-                        onChange={(e) => inputChange(e.target.value)}
-                    />
+                    <form
+                        className="inputForm"
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            submitHandler(e.target.elements.username.value);
+                        }}>
+                        <input
+                            name="username"
+                            type="text"
+                            placeholder="Axtar..."
+                            className="search-input"
+                            value={inputValue}
+                            onChange={(e) => inputChange(e.target.value)}
+                        />
+                    </form>
                 </div>
 
                 <ul className="search-list">
