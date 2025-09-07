@@ -27,11 +27,11 @@ function Search() {
             <h2 className='search-title'>
                 “Sizin Axtarışınız”: {inputText}
             </h2>
-            {listData&& listData.length == 0 ? 
-            <h2 className='search-title search-not'>
-                “Axtarışınıza uyğun heç bir nəticə tapılmadı”
-            </h2>
-            : <InfoList data={listData} loading={loading} />
+            {!loading && listData.length == 0 ?
+                <h2 className='search-title search-not'>
+                    “Axtarışınıza uyğun heç bir nəticə tapılmadı”
+                </h2>
+                : <InfoList data={listData} loading={loading} />
             }        </div>
     )
 }
