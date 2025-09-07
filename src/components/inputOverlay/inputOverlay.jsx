@@ -38,6 +38,7 @@ function InputOverlay({ inputActive, setInputActive }) {
 
     // Input Submit olduqda
     const submitHandler = (inputText) => {
+        if(!inputText) return;
         setInputActive(false);
         navigate(`search/${inputText}`);
     };
